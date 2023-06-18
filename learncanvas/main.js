@@ -146,7 +146,6 @@ function main(){
 
     for(let i = 0; i < 500; i++){
         Generate_circle.push(new Circle(Math.random() * innerWidth,Math.random() * innerHeight,10))
-        Generate_circle[i].colorList = lighting
         Generate_circle[i].x_movement = (Math.random() - 0.5) * 1
         Generate_circle[i].y_movement = (Math.random() - 0.5) * 1
     }
